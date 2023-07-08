@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "suicide-detection"
+version = "0.1.0"
+description = "Text classification project to detect suicide ideation and depression"
+authors = ["luiherch <hernandezchirlaque@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "suicide_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spacy = "3.5.2"
+pandas = "2.0.1"
+tqdm = "4.65.0"
+scikit-learn = "1.2.2"
+matplotlib = "3.7.1"
+wordcloud = "1.9.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
